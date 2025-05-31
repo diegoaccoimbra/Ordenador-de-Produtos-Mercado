@@ -29,16 +29,16 @@ public class Main {
 			
 			switch (escolha) {
 				case 1:
-					//ordenar_shell_sort(produtos);
+					AlgoritmosDeOrdenacao.shell_sort(produtos);
 					break;
 				case 2:
-					//ordenar_quick_sort(produtos);
+					AlgoritmosDeOrdenacao.quick_sort(produtos, 0, 999);
 					break;
 				case 3:
-					//ordenar_heap_sort(produtos);
+					//AlgoritmosDeOrdenacao.heap_sort(produtos);
 					break;
 				case 4:
-					//ordenar_insertion_sort(produtos);
+					//AlgoritmosDeOrdenacao.insertion_sort(produtos);
 					break;
 				default:
 					System.out.println("Erro! Insira uma opção válida!");
