@@ -60,4 +60,5 @@ NOME PRODUTO # FABRICANTE # PREÇO # DATA DE VALIDADE # TIPO
 
 ## 📁 Saída Esperada
 O programa exibe os dados ordenados no seguinte formato:
+
 NOME PRODUTO, FABRICANTE, PREÇO, VALIDADE
