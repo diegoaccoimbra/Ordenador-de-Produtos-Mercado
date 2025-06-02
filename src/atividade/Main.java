@@ -51,16 +51,17 @@ public class Main {
 			}
 			
 			/* Exibindo os items */
-			System.out.println("Produtos ordenados:");
-			if (escolha == 4) {
-				lista.printList();
-			}
-			else {
-				for (Produto prod : produtos) {
-					System.out.println(prod);
+			if (escolha > 0 && escolha < 5) {
+				System.out.println("Produtos ordenados:");
+				if (escolha == 4) {
+					lista.printList();
+				}
+				else {
+					for (Produto prod : produtos) {
+						System.out.println(prod);
+					}
 				}
 			}
-			
 			
 			scanner.close();
 			
